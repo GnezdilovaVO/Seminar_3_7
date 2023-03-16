@@ -10,8 +10,10 @@ public static class Library
             {
                 for(int k = 0; k<array1.GetLength(0); k++)
                 {
-                    
+                    sum = sum +array1[i, k]*array2[j, k]; // вот здесь проверь, я могла напутать с индексами
                 }
+                result[i, j] = sum;
+                sum = 0;
             }
         }
     }
