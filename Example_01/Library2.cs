@@ -1,6 +1,6 @@
 public static class Library2
 {
-    public static void PrintArray(int[,] array)
+    public static void printArray(int[,] array)
     {
         for (int i=0; i<array.GetLength(0); i++)
         {
@@ -8,7 +8,8 @@ public static class Library2
             {
                 Console.Write(array[i, j] + " ");
             }
-        }
         Console.WriteLine();
+        }
+
     }
 }

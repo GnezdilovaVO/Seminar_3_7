@@ -1,6 +1,6 @@
-public static class Library
+public static class Library_fill
 {
-    public static double[,] FillMatrix(double[,] array)
+    public static int[,] FillMatrix(int[,] array)
     {
         Random rand = new Random();
         for (int i = 0; i < array.GetLength(0); i++)
